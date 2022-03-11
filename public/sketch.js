@@ -1,7 +1,8 @@
 var socket;
 
 function setup(){
-    socket = io.connect('http://localhost:3000');
+    //socket = io.connect('http://localhost:3000');
+    socket = io.connect('http://localhost:8080');
     connectedUsersData = [];
     currentBullets = [];
 
